@@ -1,0 +1,83 @@
+p {
+    color: red;
+    font-size: 28px;
+}
+    article {
+        font-size: 20px;
+ }
+.custom {
+        font-size: 1.5em;
+}
+.parent {
+         font-size: 15px;
+ }
+.child {
+        font-size: 2em;
+}
+.parent {
+    font-size: 15px;
+    }
+    .child {
+    font-size: 2rem;
+}
+html {
+    /* font-size: 10px; */
+    font-size: 62.5%;
+    }
+.parent {
+    font-size: 1.5rem;
+    }
+.child {
+    font-size: 2.6rem;
+}
+/* 1.4 Shorthand Properties */
+div {
+    height: 50px;
+    border-color: rgb(25, 44, 187);
+    border-style: solid;
+    border-top-width: 5px;
+    border-right-width: 10px;
+    border-bottom-width: 15px;
+    border-left-width: 20px;
+}
+div {
+    height: 50px;
+    border-color: rgb(21, 52, 164);
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+}
+div {
+    border-width: 5px 10px 15px;
+    }
+    /* equals */
+    div {
+    border-top-width: 5px;
+    border-right-width: 10px;
+    border-bottom-width: 15px;
+    border-left-width: 10px; /* = border-right-width */
+    }
+    /* Example 3: */
+    div {
+    border-width: 5px 10px;
+    }
+    /* equals */
+    div {
+    border-top-width: 5px;
+    border-right-width: 10px;
+    border-bottom-width: 5px; /* = border-top-width */
+    border-left-width: 10px; /* = border-right-width */
+    }
+    /* Example 4: */
+    div {
+    border-width: 5px;
+    }
+    /* equals */
+    div {
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    }       
+        
+    
+            

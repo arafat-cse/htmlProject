@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_html.css">
+    <title>Chapter 5</title>
+    <link rel="icon" type="image/x-icon" href="../../images/isdb-bisew.png">
+</head>
+<body>
+    <div>
+        <fieldset><marquee >Chapter 05</marquee></fieldset>
+        <div>
+            <a href="index_html.html"><img src="../../images/Back.png" alt=""></a>
+        </div>
+    </div>
+       <marquee style ="color: green; font-size: 30px;">My Registration Form</marquee>
+
+       <div class="form-container">
+        <form action="#" method="post">
+            <h2>Registration Form</h2>            
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="area">password</label>
+            <input type="password" id="email" name="password" placeholder="Enter your password" required>
+            <label for="area">Message</label>
+            <textarea name="area" id="" placeholder="message" required></textarea>
+ 
+            <label for="Course">Course</label>
+            <select id="Course" name="Course" required>
+                <option value="" disabled selected>Select your Course</option>
+                <option value="usa">FC</option>
+                <option value="canada">SQL</option>
+                <option value="uk">CShap</option>
+                <option value="australia">HTML</option>
+            </select>
+            <br>
+
+            <!-- Gender (Radio Buttons) -->
+            <label>Gender</label>
+            <div class="gender-options">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+
+           
+            <label>Interests</label>
+            <div class="interest-options">
+                <input type="checkbox" id="sports" name="interests" value="sports" required>
+                <label for="sports">Sports</label>
+
+                <input type="checkbox" id="music" name="interests" value="music" required>
+                <label for="music">Music</label>
+
+                <input type="checkbox" id="reading" name="interests" value="reading" required>
+                <label for="reading">Reading</label>
+            </div>
+
+            <!-- Date of Birth -->
+            <label  for="dob">Date of Birth</label>
+            <input class="dob" type="date" id="dob" name="dob" required>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+      
+</body>
+</html>

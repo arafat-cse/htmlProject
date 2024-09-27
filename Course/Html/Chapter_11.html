@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 11</title>
+    <link rel="icon" type="image/x-icon" href="../../images/isdb-bisew.png">
+    <s><link rel="stylesheet" href="css/Chapter_11.css"></s>
+    <!-- 1.5.2 Internal CSS -->
+    <style type="text/css">
+        p {
+        color: green;
+        font-size: 26px;
+         }
+        </style>
+</head>
+<body>
+    <section>
+        <fieldset><marquee >Chapter 11</marquee></fieldset>
+        <section>
+            <a href="index_html.html"><img src="../../images/Back.png" alt=""></a>
+        </section>
+    </section>
+    <p>This is pragraph</p>
+    <article>
+        <p>
+         This element does not have its style, so that the font-size will be
+        20px, inherited from its parent (article)
+        </p>
+        <p class="custom">
+         This element has style "font-size: 1.5em" so that the font-size will
+        be 30px (20 * 1.5 = 30)
+        </p>
+        </article>
+        <div class="parent">
+            I'm 15px
+           <div class="child">
+            I'm 30px, as expected
+            <div class="child">I'm 60px, oh no!</div>
+           </div>
+        </div>
+        <div class="parent">
+            I'm 15px
+           <div class="child">
+            I'm 32px, as expected
+           <div class="child">I'm 32px, good!</div>
+           </div>
+        </div>
+        <div class="parent">
+            I'm 1.5rem = 1.5 * 10px = 15px
+           <div class="child">
+            I'm 2.6rem = 2.6 * 10px = 26px, as expected
+           <div class="child">I'm 26px, good!</div>
+           </div>
+        </div>
+        <!-- 1.4 Shorthand Properties -->
+        <div>
+
+        </div>
+        <p style="color: red; font-size: 26px">This is the first
+            paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <!-- 1.5.2 Internal CSS -->
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph.</p>
+        
+</body>
+</html>
