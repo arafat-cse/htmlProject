@@ -17,9 +17,10 @@
     box-sizing: content-box;
 }
         
+
 * {
      box-sizing: border-box;
-}
+} 
 #parent {
     border: 1px solid black;
 }
@@ -31,16 +32,16 @@
     margin-left: 30px;
 }
  
-#parent {
+#parent1 {
     border: 1px solid black;
     height: 100px;
-    }
-    #child {
+}
+#child1 {
     border: 1px solid red;
     width: 200px;
     margin: auto;
 }
-#parent {
+#parent2 {
     border: 1px solid black;
 }
     #child-one {
@@ -90,7 +91,7 @@ border: 5px solid red;
     padding: 20px;
     width: 100px;
     height: 50px;
-    background: green;
+    background: rgb(138, 19, 98);
 }
     #p1 {
     border-radius: 10px;

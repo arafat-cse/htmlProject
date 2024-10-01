@@ -5,40 +5,40 @@
 p {
     color: red;
 }
-p {
+/* p {
     text-decoration-line: line-through;
-}
-p {
+} */
+/* p {
     text-decoration-line: overline underline;
     text-decoration-color: red;
-}
-p {
+} */
+  /* p {
     text-decoration-line: underline;
     text-decoration-thickness: 5px;
 }
 p {
     text-decoration-line: underline;
-}
-    .p1 {
+} */
+p {
     text-decoration-style: double;
 }
-    .p2 {
+p.p2 {
     text-decoration-style: dotted;
 }
-    .p3 {
+p.p3 {
     text-decoration-style: dashed;
 }
-    .p4 {
+p.p4 {
     text-decoration-style: wavy;
-}
-p {
+} */
+/* p {
     text-decoration: underline red wavy 3px;
-}
-p {
+} */
+/* p {
     white-space: pre-wrap;
 }   
-   
-.test-clip {
+    */
+ .test-clip {
     white-space: nowrap;
     width: 200px;
     border: 1px solid #000000;
@@ -51,8 +51,8 @@ p {
     border: 1px solid #000000;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.test-word-wrap {
+} */
+ .test-word-wrap {
     width: 200px;
     border: 1px solid #000000;
     word-wrap: break-word;
@@ -69,26 +69,24 @@ p {
         }
         .test-break-all {
         word-break: break-all;
-        }
+        } */
 .div1 {
     height: 100px;
     border: 1px solid black;
 }
     span {
     line-height: 100px;
-}
-.pp1 {
+} 
+ .pp1 {
     width: 150px;
     border: 1px solid black;
-    }
-    .test-one {
+}
+.test-one {
     text-align: justify;
-    }
-    .test-two {
+}
+.test-two {
     text-align: center;
-    }
-    .test-three {
+}
+.test-three {
     text-align: right;
-    }
-    
-    
+}

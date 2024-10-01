@@ -23,40 +23,38 @@
     </section>
     <p>This is pragraph</p>
     <article>
-        <p>
-         This element does not have its style, so that the font-size will be
-        20px, inherited from its parent (article)
-        </p>
-        <p class="custom">
-         This element has style "font-size: 1.5em" so that the font-size will
-        be 30px (20 * 1.5 = 30)
-        </p>
-        </article>
-        <div class="parent">
-            I'm 15px
-           <div class="child">
-            I'm 30px, as expected
-            <div class="child">I'm 60px, oh no!</div>
-           </div>
+            <p>
+                This element does not have its style, so that the font-size will be
+                20px, inherited from its parent (article)
+            </p>
+            <p class="custom">
+                This element has style "font-size: 1.5em" so that the font-size will
+                be 30px (20 * 1.5 = 30)
+            </p>
+    </article>
+   
+    <div class="parent">
+        I'm 15px
+        <div class="child">
+        I'm 30px, as expected
+        <div class="child">I'm 60px, oh no!</div>
         </div>
-        <div class="parent">
-            I'm 15px
-           <div class="child">
-            I'm 32px, as expected
-           <div class="child">I'm 32px, good!</div>
-           </div>
+    </div>
+    <div class="parent">
+        I'm 15px
+        <div class="child">
+        I'm 32px, as expected
+        <div class="child">I'm 32px, good!</div>
         </div>
-        <div class="parent">
-            I'm 1.5rem = 1.5 * 10px = 15px
-           <div class="child">
-            I'm 2.6rem = 2.6 * 10px = 26px, as expected
-           <div class="child">I'm 26px, good!</div>
-           </div>
-        </div>
+    </div>
+    <div class="parent01">
+        I'm 1.5rem = 1.5 * 10px = 15px
+       <div class="child01">
+        I'm 2.6rem = 2.6 * 10px = 26px, as expected
+       <div class="child01">I'm 26px, good!</div>
+       </div>
+    </div>
         <!-- 1.4 Shorthand Properties -->
-        <div>
-
-        </div>
         <p style="color: red; font-size: 26px">This is the first
             paragraph.</p>
         <p>This is the second paragraph.</p>
