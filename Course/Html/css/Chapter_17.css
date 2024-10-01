@@ -1,0 +1,134 @@
+.bg-17{
+    background-color: azure;
+}
+.p12 {
+    background-color: yellow;
+}
+.p22 {
+    color: red;
+    border: 1px solid red;
+    width: 380px;
+    height: 380px;
+    background-image: url(../../../images/isdb-bisew.png);
+    
+}   
+.p33 {
+    color: red;
+    border: 1px solid red;
+    width: 380px;
+    height: 380px;
+    background-image: url(../../../images/isdb-bisew.png);
+    background-repeat: repeat-x;
+}
+.p44 {
+    color: red;
+    border: 1px solid red;
+    width: 380px;
+    height: 380px;
+    background-image: url(../../../images/isdb-bisew.png);
+    background-repeat: repeat-y;
+    }
+.p55 {
+        color: red;
+        border: 1px solid red;
+        width: 380px;
+        height: 380px;
+        background-image: url(../../../images/isdb-bisew.png);
+        
+        background-repeat: space;
+}
+.p66 {
+    color: red;
+    border: 1px solid red;
+    width: 380px;
+    height: 380px;
+    background-image: url(../../../images/isdb-bisew.png);
+    background-repeat: round;
+    }
+.p77 {
+    color: red;
+    border: 1px solid red;
+    width: 380px;
+    height: 380px;
+    background-image: url(../../../images/isdb-bisew.png);
+    background-repeat: no-repeat;
+    }
+.p88 {
+    color: red;
+    border: 1px solid red;
+    width: 300px;
+    height: 180px;
+    background-image: url(../../../images/isdb-bisew.pn);
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+.p99 {
+    color: red;
+    border: 1px solid red;
+    width: 300px;
+    height: 150px;
+    background-image: url(../../../images/isdb-bisew.p);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    }
+    .pp23 {
+        width: 250px;
+        height: 100px;
+        background: linear-gradient(red, yellow);
+        } 
+        .pp24 {
+            height: 100px;
+            background: linear-gradient(to right, red, yellow);
+            }
+             
+            .pp25 {
+                height: 100px;
+                background: linear-gradient(to bottom right, red, yellow);
+                }      
+                .pp26 {
+                    height: 100px;
+                    background: linear-gradient(-90deg, red, yellow);
+                    }  
+                    .pp27 {
+                        height: 100px;
+                        background: radial-gradient(red 10%, yellow 30%, green
+                        60%);
+                        }
+                
+.sprite {
+    background-image: url("sprites.jpg");
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    display: inline-block;
+    }
+    .testing {
+    background-position: -10px -10px;
+    }
+    .number-1 {
+    background-position: 0 0;
+    }
+    .number-2 {
+    background-position: -50px 0;
+    }
+    .number-3 {
+    background-position: -100px 0;
+    }
+    .number-4 {
+    background-position: 0 -50px;
+    }
+    .number-5 {
+    background-position: -50px -50px;
+    }
+    .number-6 {
+    background-position: -100px -50px;
+    }
+    .number-7 {
+    background-position: 0 -100px;
+    }
+    .number-8 {
+    background-position: -50px -100px;
+    }
+    .number-9 {
+    background-position: -100px -100px;
+    } 

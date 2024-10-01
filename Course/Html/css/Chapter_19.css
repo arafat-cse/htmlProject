@@ -1,0 +1,59 @@
+.bg-19{
+    background-color: bisque;
+}
+.parent {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed black;
+}
+.relative {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    border: 1px solid red;
+}
+.normal {
+    border: 1px dashed blue;
+}
+.positioned {
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.non-positioned {
+    border: 1px dashed black;
+    width: 150px;
+    height: 150px;
+}
+.absolute {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border: 1px solid red;
+    background-color: white;
+}
+.big {
+    height: 250px;
+    border: 1px solid black;
+}
+.fixed {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: 100px;
+    border: 1px solid red;
+}
+.parent {
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    border: 1px solid red;
+    background-color: white;
+}
+    
+    

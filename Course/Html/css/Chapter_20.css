@@ -1,0 +1,71 @@
+.bg-20{
+    background-color: antiquewhite;
+}
+.container {
+    border: 1px solid black;
+    width: 300px;
+    
+}
+    .float {
+    float: left;
+    border: 1px solid red;
+}
+    .no-float {
+    border: 1px solid blue;
+}
+ .no-float {
+        clear: left;
+        border: 1px solid blue;
+}
+div {
+    border: 1px solid black;
+    }
+    .container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    }
+    .child {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    }
+    .absolute {
+    position: absolute;
+    border: 1px solid red;
+    text-align: right;
+    }
+    .z-index-minus-two {
+    z-index: -2;
+    left: 100px;
+    top: 5px;
+    }
+    .z-index-minus-one {
+    z-index: -1;
+    left: 70px;
+    top: 35px;
+    }
+    .z-index-zero {
+    z-index: 0;
+    left: 40px;
+    top: 65px;
+    }
+    .z-index-one {
+    z-index: 1;
+    left: 10px;
+    top: 95px;
+    }
+    .z-index-two {
+    z-index: 2;
+    }
+    .flex-container {
+        display: flex;
+        width: 300px;
+        height: 150px;
+        border: 1px solid black;
+        gap: 10px;
+        }
+        .flex-item {
+        border: 1px solid red;
+        }    
+        

@@ -1,0 +1,94 @@
+.bg-16{
+    background-color: rgb(221, 230, 247);
+}
+/* 6.1.1 Setting Color */
+p {
+    color: red;
+}
+p {
+    text-decoration-line: line-through;
+}
+p {
+    text-decoration-line: overline underline;
+    text-decoration-color: red;
+}
+p {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+p {
+    text-decoration-line: underline;
+}
+    .p1 {
+    text-decoration-style: double;
+}
+    .p2 {
+    text-decoration-style: dotted;
+}
+    .p3 {
+    text-decoration-style: dashed;
+}
+    .p4 {
+    text-decoration-style: wavy;
+}
+p {
+    text-decoration: underline red wavy 3px;
+}
+p {
+    white-space: pre-wrap;
+}   
+   
+.test-clip {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+    .test-ellipsis {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.test-word-wrap {
+    width: 200px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    }
+    p[class] {
+        width: 140px;
+        border: 1px solid #000000;
+        }
+        .test-keep-all {
+        word-break: keep-all;
+        }
+        .test-break-word {
+        word-break: break-word;
+        }
+        .test-break-all {
+        word-break: break-all;
+        }
+.div1 {
+    height: 100px;
+    border: 1px solid black;
+}
+    span {
+    line-height: 100px;
+}
+.pp1 {
+    width: 150px;
+    border: 1px solid black;
+    }
+    .test-one {
+    text-align: justify;
+    }
+    .test-two {
+    text-align: center;
+    }
+    .test-three {
+    text-align: right;
+    }
+    
+    

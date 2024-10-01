@@ -1,5 +1,5 @@
-body{
-    background-color:aqua;
+.bg-13{
+    background-color:rgb(141, 157, 157);
 }
 
 h1 {
@@ -9,3 +9,90 @@ h1 {
 h1 {
     color: blue;
 }
+/* Type Selector */
+h1 {
+    color: orange;
+    }
+    /* Universal Selector */
+    * {
+    color: red;
+}
+/* Combined Selector of Tags */
+body h1 {
+    color: yellow;
+}
+    /* Type Selector */
+    h1 {
+    color: orange;
+}
+/* Class Selector */
+.heading {
+    color: green;
+}
+    /* Combined Selector of Tags */
+    body h1 {
+    color: yellow;
+}
+    /* Combined Selector of Classes and Tags */
+body .heading {
+    color: blue;
+}
+/* Class Selector */
+.heading {
+    color: green;
+}
+/* Multiple-Class Selector */
+.heading.first {
+    color: indigo;
+ }
+    /* Combined Selector of Classes and Tags */
+    body .heading {
+    color: blue;
+}
+/* ID Selector */
+#heading-one {
+    color: violet;
+}
+    /* Multiple-Class Selector */
+    .heading.first {
+    color: indigo;
+}
+/* All */
+/* ID Selector */
+#heading-one {
+    color: violet;
+}
+    /* Multiple-Class Selector */
+    .heading.first {
+    color: indigo;
+}
+    /* Combined Selector of Classes and Tags */
+    body .heading {
+    color: blue;
+}
+    /* Class Selector */
+    .heading {
+    color: green;
+}
+    /* Combined Selector of Tags */
+    body h1 {
+    color: yellow;
+}
+    /* Type Selector */
+    h1 {
+    color: orange;
+}
+    /* Universal Selector */
+    * {
+    color: red;
+}
+/* 3.5 Inheritance */
+.parent {
+    color: red;
+ }
+    .line {
+    color: green;
+}
+    .first-line {
+    color: inherit;
+}   
