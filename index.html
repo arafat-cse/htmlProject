@@ -21,19 +21,19 @@
                     <ul>
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#">Fc</a>
-                            <ul class="inside_menu">
+                            <!-- <ul class="inside_menu">
                                 <li><a href="#">Chapter 1</a></li>  
-                            </ul>
+                            </ul> -->
                         </li>
                         <li><a href="#">SQL</a>
-                            <ul class="inside_menu">
+                            <!-- <ul class="inside_menu">
                                 <li><a href="#">Chapter 1</a></li>   
-                            </ul>
+                            </ul> -->
                         </li>
                         <li><a href="#">C#</a>
-                            <ul class="inside_menu">
+                            <!-- <ul class="inside_menu">
                                 <li><a href="#">Chapter 1</a></li>  
-                            </ul>
+                            </ul> -->
                         </li>
                         <li><a href="Course/Html/index_html.html">HTML:5</a>
                             <ul class="inside_menu">
@@ -59,10 +59,6 @@
                                 <li><a href="Course/Html/Chapter_20.html">Chapter 20</a></li> 
                                 <li><a href="Course/Html/Chapter_21.html">Chapter 21</a></li>
                                 <li><a href="Course/Html/Chapter_22.html">Chapter 22</a></li> 
-
-
-
-
                             </ul>
                         </li>
                         <li><a href="Course/about.html">About</a></li>
@@ -75,43 +71,49 @@
         </section>
     </header>
     <!-- Background Image Bannar -->
-    <section class="bg-image">
+    <section class="bg-image ">
         <marquee style="color: white; font-size: 39px;">Islamic Development Bank
-            Bangladesh Islamic Solidarity Educational Wakf</marquee>
+            Bangladesh Islamic Solidarity Educational Wakf</marquee>     
     </section>
     <section class="course">
         <h2 style="font-size: 29px;"><b>Popular Courses</b> </h2>
     </section>
     <section>
-        <div class="mycontainer">
-            <div class="fc-image">
-                <a href="#"><img src="images/fc.png" alt="Fc"></a>
-              <h2 style="background-color: wheat;">Computer Fundamental</h2>
+        <div class="row">
+            <div class="col-m-3 col-4">
+                <a href="#"><img style="border-top-left-radius: 20px;" src="images/fc.png" alt="Fc"></a>
+              <!-- <h2 style="background-color: wheat;">Computer Fundamental</h2> -->
+               <a class="cbtn" href="#"><button type="button">Computer Fundamental</button></a>
             </div>
-            <div class="fc-image"> 
-              <a href="#"><img src="images/SQL1.png" alt="Sql"></a>
-              <h2 style="background-color: wheat;">Microsoft sql server</h2>
+            <div class=" col-m-3 col-4"> 
+              <a href="#"><img style="border-bottom-right-radius: 20px;" src="images/SQL1.png" alt="Sql"></a>
+              <!-- <h2 style="background-color: wheat;">Microsoft sql server</h2> -->
+              <a class="cbtn" href="#"><button type="button">Microsoft sql server</button></a>
             </div>
-            <div class="fc-image">
-                <a href="#"><img src="images/c_shap.png" alt="c#"></a>
-              <h2 style="background-color: wheat;">Microsoft</h2> 
+            <div class=" col-m-3 col-4">
+                <a href="#"><img style="border-top-right-radius: 20px;" src="images/c_shap.png" alt="c#"></a>
+              <!-- <h2 style="background-color: wheat;">Microsoft</h2>  -->
+              <a class="cbtn" href="#"><button type="button">Microsoft sql server</button></a>
             </div>
-          </div>
+        </div>
     </section>
    <br>
     <section>
-        <div class="mycontainer row">
-            <div class="fc-image col-4 col-m-3">
-                <a href="Course/Html/index_html.html"><img src="images/html.png" alt="Fc"></a>
-              <h2 style="background-color: wheat;">HTML 5</h2>
+        <div class="row">
+            <div class=" col-m-3 col-4">
+                <a href="Course/Html/index_html.html"><img style="border-top-left-radius: 20px;" src="images/html.png" alt="Fc"></a>
+                <!-- <h2 style="background-color: wheat;">HTML 5</h2> -->
+                <a class="cbtn" href="Course/Html/index_html.html"><button type="button">HTML</button></a>
             </div>
-            <div class="fc-image col-4 col-m-3"> 
-              <a href="#"><img src="images/javascrpt.png" alt="Sql"></a>
-              <h2 style="background-color: wheat;">Javascript</h2>
+            <div class=" col-m-3 col-4"> 
+              <a href="#"><img style="border-bottom-right-radius: 20px;" src="images/javascrpt.png" alt="Sql"></a>
+              <!-- <h2 style="background-color: wheat;">Javascript</h2> -->
+              <a class="cbtn" href="#"><button type="button">Javascript</button></a>
             </div>
-            <div class="fc-image col-4 col-m-3">
-                <a href="#"><img src="images/jquery.jpg" alt="c#"></a>
-              <h2 style="background-color: wheat;">Master Jqueryt</h2> 
+            <div class=" col-m-3 col-4">
+                <a href="#"><img style="border-top-right-radius: 20px;" src="images/jquery.jpg" alt="c#"></a>
+                <!-- <h2 style="background-color: wheat;">Master Jqueryt</h2>  -->
+                <a class="cbtn"  href="#"><button type="button">Javascript</button></a>
             </div>
         </div>
     </section>
@@ -120,40 +122,70 @@
         <h2 style="font-size: 29px; color: green;"><b>Meet Our Instructors</b> </h2>
     </section>
     <section>
-        <div class="team-techer">
-            <div >
-                <a href="#"><img src="images/tec1.jpg" alt="Fc"></a>
-              <h2>Charlotte
-                Wilson</h2>
+        <div class="row">
+            <div class="col-m-12 col-4">
+                <a href="#"><img style="border-radius: 20px;" src="images/tec1.jpg" alt="Fc"></a>
+                <!-- <h2>Charlotte Wilson</h2> -->
+                <a class="tbtn" href="#"><button type="button">Charlotte Wilson</button></a>
             </div>
-            <div > 
-              <a href="#"><img src="images/tec2.jpg" alt="Sql"></a>
-              <h2 >Matthew John</h2>
+            <div class="col-m-4 col-4" > 
+              <a  href="#"><img style="border-radius: 20px;" src="images/tec2.jpg" alt="Sql"></a>
+              <!-- <h2 >Matthew John</h2> -->
+              <a class="tbtn" href="#"><button type="button">Matthew John</button></a>
             </div>
-            <div >
-                <a href="#"><img src="images/tec3.jpg" alt="c#"></a>
-              <h2 >Sophia Adams</h2> 
+            <div class="col-m-4 col-4" >
+                <a href="#"><img style="border-radius: 20px;" src="images/tec3.jpg" alt="c#"></a>
+              <!-- <h2 >Sophia Adams</h2>  -->
+              <a class="tbtn" href="#"><button type="button">Sophia Adams</button></a>
             </div>
         </div>
     </section>
     <!--About Section-start-->
-    <section><br> </section>
+    <section> </section>
+    <br><br><br> <hr>
     <section>
         <!-- <div class="aboutus"> -->
         <div class="row">
             <!-- <div class="ab_us"> -->
-            <div class="col-6 col-m-3">
-               <h2 >About Us</h2>
-               <img class="my_image" src="images/account.png" alt="">
-               <h3>Md Arafat Rahman</h3>
-               <p>Isdb: studen</p>
-               <p>
-                Uploading:
-                <progress value="60" max="100"></progress> 60%
-                </p>
+            <div class="col-m-6 col-6">
+                <div class="profile-card">
+                    <img class="profile-image" style="border-radius: 50%;" src="images/arafat.jpg" alt="Profile Image">
+                    <div class="profile-details">
+                        <h2>Md Arafat Rahman</h2>
+                        <p><strong>Position:</strong> Isdb Student</p>
+                        <p><strong>Skills:</strong> Computer Fundamental, SQL, C#, Web Design</p>
+                        <p><strong>Bio:</strong> Passionate developer focused on learning modern web technologies and building responsive, interactive websites.</p>
+                        <div class="profile-progress">
+                            <label>Course Progress: <progress value="60" max="100"></progress> 60%</label>
+                        </div>
+                        <h4>Skill</h4>
+                        <p>
+                            Computer Fundamental
+                            <progress value="86" max="100"></progress> 86%
+                        </p>
+                        <p>
+                            Sql Server
+                            <progress  value="82" max="100"></progress> 82%
+                        </p>
+                        <p>
+                            C#
+                            <progress  value="85" max="100"></progress> 85%
+                        </p>
+                        <p>
+                            Html
+                            <progress  value="96" max="100"></progress> 96%
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+              
             </div>
             <!-- <div class="ab_con"> -->
-            <div class="col-6 col-m-3">
+            <div class="col-m-6 col-6">
               <h2>Contact Form</h2>
               
                 <div class="form-container">
@@ -180,13 +212,11 @@
     </section>
     <br>
    <!-- footer section  -->
-    <section class="s-footer">
-        <h2>Footer</h2>
-    </section>
+   
     <footer class="main-footer">
         <nav>
-            <div class="sub-footer">
-                <div class="fter">
+            <div class="sub-footer row">
+                <div class="fter col-m-3">
                     <h3>Company</h3>
                     <ul>
                         <li><a href="#">About Us</a></li>
@@ -195,7 +225,7 @@
                         <li><a href="#">Affiliate Program</a></li>
                     </ul>
                 </div>
-                <div class="fter">
+                <div class="fter col-m-3">
                     <h3>Get Help</h3>
                     <ul>
                         <li><a href="#">FAQ</a></li>
@@ -204,7 +234,7 @@
                         <li><a href="#">Order Status</a></li>
                     </ul>
                 </div>
-                <div class="fter">
+                <div class="fter col-m-3">
                     <h3>Online Course</h3>
                     <ul>
                         <li><a href="#">Watch</a></li>
