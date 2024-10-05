@@ -63,3 +63,40 @@ button:hover {
  background-color: aqua;
  
 }
+/* Chapter Menu */
+.hz_menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 10px; 
+    padding: 0;
+    list-style: none; 
+  }
+  
+  .hz_menu li {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .hz_menu li:hover {
+    transform: scale(1.05); 
+  }
+  
+  .hz_menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .hz_menu a:hover {
+    background-color: #e0e0e0; 
+    color: #007BFF; 
+  }
+.bg-images{
+    background-image:url(../../images/chapters.png);
+}  

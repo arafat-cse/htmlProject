@@ -68,6 +68,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 95%;  
+  
 }
 .logo-section{
 	height: 100%;
@@ -85,16 +86,25 @@ body {
 .menu-section ul{
 	display: flex;
 	justify-items: center;
+  
 }
 .menu-section ul li{
 	list-style: none;
 	position:relative;
-	border: 1px;
+  border-radius: 10px;
+  background-color: #2c3e50;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+	
+}
+.menu-section ul li:hover{
+  background-color: white;
 }
 .menu-section ul li a{
 	text-decoration: none;
-	color: #333;
-  	font-weight: bolder;
+	color: white;
+  font-weight: bolder;
 	padding: 10px 20px;
 	transition: 1s;
 }
@@ -178,80 +188,119 @@ padding-bottom: 20px;
 	
 }
 
-/* Chapter 05 end */
-/* .mycontainer {
-	width:100%;
-	overflow:auto;
-  }
-.mycontainer div {
-	width:33.3%;  
-	float:left;
-	
-  }
-.mycontainer.fc-image
-{
-	height: 100px;
+h2{
+  text-align: center;
+  color: white;
+  
 }
-.fc-image h2{
-	text-align: center;
-} */
-/* techer */
-/* .team-techer{
-	width:100%;
-	overflow:auto;
-	margin-bottom: 20px;
-	
-  }
-.team-techer div {
-	width:33%;  
-	float:left;
-	border: 1px solid tomato;
-	justify-items: center;
-  }
-.team-techer.fc-image
-{
-	height: 100px;
+/* profile image contant */
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:#fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
- h2{
-	text-align: center;
-} */
-/* aboutus */
-/* .aboutus{
-	width:100%;
-	overflow:auto;
-  }
-.aboutus div {
-	width:50%;  
-	float:left;
-  }
-.mycontainer.fc-image
-{
-	height: 100px;
-} */
-/* aboutus */
-/* .aboutus {
-	text-align: center;
-}
-.ab_us .my_image{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-} */
 
-/* form */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 5px solid #ddd;
+  border-radius: 50%;
+}
+
+.profile-details {
+  flex-grow: 1;
+}
+
+.profile-details h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.profile-details strong {
+  color: #333;
+}
+
+.profile-progress,
+.profile-details progress {
+  width: 100%;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  height: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4CAF50;
+  border-radius: 20px;
+  height: 10px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #4CAF50;
+  border-radius: 20px;
+}
+
+.profile-progress label {
+  font-weight: bold;
+  color: #333;
+}
+
+h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+
 .row a {
 	margin: 0 auto;
-	/* padding: 20px; */
 }
 a button{
 	padding: 10px;
 }
 .form-container {
+    width: 95%;
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 40%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 label {
@@ -288,7 +337,7 @@ textarea {
     background-color: #218838;
 }
 button {
-  width: 80%;
+  width: 100%;
   padding: 10px;
   background-color: #2f51a2;
   color: #fff;
@@ -315,44 +364,7 @@ button:hover {
     background-color: #218838;
 }
 
-.col-m-3 button{
-	 
-  
-
-  
-}
-/* footer section
-.s-footer
-{
-	text-align: center;
-	color: #fff;
-	width: 100%;
-	height: 30px;
-	background-color: #333;
-	
-}
-.sub-footer {
-	width:100%;
-	overflow:auto;
-	text-align: center;
-	margin: 5px;
-	padding: 5px;
-	
-  }
-  .sub-footer div {
-	width:33%;  
-	float:left;
-	border: 1px solid green;
-	
-  }
-  .copy{
-	
-	text-align: center;
-	padding: 10px;
-	padding-bottom: 10px;
-  } */
-   /* Footer Section */
-/* Footer Section */
+/* footer */
 .main-footer {
     background-color: #2c3e50;
     color: white;
@@ -409,18 +421,13 @@ button:hover {
     padding-top: 10px;
 }
 
-/* @media (max-width: 75px) {
-    .fter {
-        flex-basis: 100%;
-        margin-bottom: 20px;
-    }
-} */
-.htmlcap{
+
+/* .htmlcap{
 	width: 100%;
 	
 }
 .htmlcap .manuhtml5{
-	/* display: flex; */
+
 	height: 500px;
 	display: inline;
 	
@@ -428,5 +435,42 @@ button:hover {
 .htmlcap .manuhtml5 li a{
 	
 	text-decoration: none;	
+} */
+/* html course css */
+.hz_menu{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  gap: 10px; 
+  padding: 0;
+  list-style: none; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
+.hz_menu li {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  background-color: #218838;
+}
+
+.hz_menu li:hover {
+  transform: scale(1.05); 
+}
+
+.hz_menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.hz_menu a:hover {
+  background-color: #e0e0e0; 
+  color: #007BFF; 
+}
