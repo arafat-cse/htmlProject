@@ -1,15 +1,46 @@
-/* @media (max-width: 768px) {
-	.menu-section ul li {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	}
-	.bg-image {
-		width: 100px;
-	  flex-basis: 780PX;
-	}
-  }
-   */
+* {
+    box-sizing: border-box;
+    }
+    .row::after {
+    content: "";
+    clear: both;
+    display: block;
+    }
+    /* For mobile phones: */
+    [class*="col-"] {
+    float: left;
+    width: 100%;
+    }
+    @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 { width: 8.33%; }
+    .col-m-2 { width: 16.66%; }
+    .col-m-3 { width: 25%; }
+    .col-m-4 { width: 33.33%; }
+    .col-m-5 { width: 41.66%; }
+    .col-m-6 { width: 50%; }
+    .col-m-7 { width: 58.33%; }
+    .col-m-8 { width: 66.66%; }
+    .col-m-9 { width: 75%; }
+    .col-m-10 { width: 83.33%; }
+    .col-m-11 { width: 91.66%; }
+    .col-m-12 { width: 100%; }
+    }
+    @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+    }
 * {
   margin: 0;
   padding: 0;
@@ -112,6 +143,7 @@ body {
 text-align: center;
 padding-top: 20px;
 padding-bottom: 20px;
+
 }
 .bg-image{ 
 	width: 100%;
@@ -147,14 +179,14 @@ padding-bottom: 20px;
 }
 
 /* Chapter 05 end */
-.mycontainer {
+/* .mycontainer {
 	width:100%;
 	overflow:auto;
   }
 .mycontainer div {
 	width:33.3%;  
 	float:left;
-	/* border: 1px solid tomato; */
+	
   }
 .mycontainer.fc-image
 {
@@ -162,9 +194,9 @@ padding-bottom: 20px;
 }
 .fc-image h2{
 	text-align: center;
-}
+} */
 /* techer */
-.team-techer{
+/* .team-techer{
 	width:100%;
 	overflow:auto;
 	margin-bottom: 20px;
@@ -182,9 +214,9 @@ padding-bottom: 20px;
 }
  h2{
 	text-align: center;
-}
+} */
 /* aboutus */
-.aboutus{
+/* .aboutus{
 	width:100%;
 	overflow:auto;
   }
@@ -195,18 +227,25 @@ padding-bottom: 20px;
 .mycontainer.fc-image
 {
 	height: 100px;
-}
+} */
 /* aboutus */
-.aboutus {
+/* .aboutus {
 	text-align: center;
 }
 .ab_us .my_image{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-}
+} */
 
 /* form */
+.row a {
+	margin: 0 auto;
+	/* padding: 20px; */
+}
+a button{
+	padding: 10px;
+}
 .form-container {
     background-color: #fff;
     padding: 30px;
@@ -234,11 +273,10 @@ input, textarea {
 textarea {
     height: 100px;
 }
-
-button {
-    width: 100%;
+.cbtn button {
+    width: 80%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #2f51a2;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -246,10 +284,43 @@ button {
     font-size: 18px;
 }
 
+.cbtn button:hover {
+    background-color: #218838;
+}
+button {
+  width: 80%;
+  padding: 10px;
+  background-color: #2f51a2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
 button:hover {
+  background-color: #9e1d57;
+}
+
+.tbtn button{
+	width: 80%;
+    padding: 10px;
+    background-color: #576e5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.tbtn button:hover {
     background-color: #218838;
 }
 
+.col-m-3 button{
+	 
+  
+
+  
+}
 /* footer section
 .s-footer
 {

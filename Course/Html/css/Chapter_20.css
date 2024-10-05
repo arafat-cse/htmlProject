@@ -6,7 +6,7 @@
     width: 300px;
     
 }
-    .float {
+.float {
     float: left;
     border: 1px solid red;
 }
@@ -17,13 +17,13 @@
         clear: left;
         border: 1px solid blue;
 }
-div {
+ div {
     border: 1px solid black;
     }
-    .container {
+    .container1 {
     position: relative;
     width: 250px;
-    height: 250px;
+    /* height: 250px; */
     }
     .child {
     width: 100px;
@@ -58,14 +58,26 @@ div {
     .z-index-two {
     z-index: 2;
     }
-    .flex-container {
-        display: flex;
-        width: 300px;
-        height: 150px;
-        border: 1px solid black;
-        gap: 10px;
-        }
-        .flex-item {
-        border: 1px solid red;
-        }    
-        
+.flex-container1 {
+    display: flex;
+    margin-top: 100px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    gap: 10px;
+    }
+    .flex-item {
+    border: 1px solid red;
+    }    
+.flex-container {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    gap: 10px;
+    }
+    .flex-item {
+    border: 1px solid red;
+    }

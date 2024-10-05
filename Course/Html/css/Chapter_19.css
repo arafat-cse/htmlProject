@@ -1,30 +1,42 @@
 .bg-19{
-    background-color: bisque;
+    background-color: rgb(221, 218, 216);
 }
 .parent {
     width: 200px;
     height: 200px;
     border: 1px dashed black;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
-.relative {
+ .relative {
     position: relative;
+    text-align: center;
     left: 30px;
     top: 30px;
+    margin-top: 10px;
     border: 1px solid red;
+    background-color: aquamarine;
 }
 .normal {
+    margin-top: 10px;
     border: 1px dashed blue;
+    background-color: white;
+    text-align: center;
 }
 .positioned {
     position: relative;
+    text-align: center;
     border: 1px solid black;
     width: 200px;
     height: 200px;
+    margin-bottom: 20px;
 }
 .non-positioned {
     border: 1px dashed black;
     width: 150px;
     height: 150px;
+    background-color: green;
+    
 }
 .absolute {
     position: absolute;
@@ -32,13 +44,18 @@
     top: 30px;
     border: 1px solid red;
     background-color: white;
+    
 }
 .big {
     height: 250px;
     border: 1px solid black;
+    text-align: center;
+    background-image:url("../../../images/html.png");
+
 }
 .fixed {
     position: fixed;
+    text-align: center;
     right: 30px;
     top: 30px;
     width: 100px;
@@ -48,12 +65,10 @@
     width: 200px;
     height: 200px;
     overflow: auto;
-}
+} 
 .sticky {
     position: sticky;
     top: 0;
     border: 1px solid red;
     background-color: white;
 }
-    
-    

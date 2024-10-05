@@ -1,0 +1,47 @@
+:root {
+    --a-global-color: red;
+    }
+    section {
+    --a-local-color: blue;
+    }
+    header {
+    color: var(--a-global-color);
+    }
+    footer {
+    color: var(--a-local-color);
+    }
+    header,
+footer {
+height: 30px;
+line-height: 30px;
+}
+header {
+border-bottom: 1px solid black;
+}
+footer {
+border-top: 1px solid black;
+text-align: center;
+}
+.main-content {
+min-height: calc(100vh - 96px);
+}
+.long-content {
+border: 1px solid #ccc;
+/* height: 1000px; */
+}
+body {
+    font-size: 12px;
+    counter-reset: my-section;
+    }
+    h1 {
+    counter-reset: my-sub-section;
+    }
+    h1::before {
+    counter-increment: my-section;
+    content: "Section " counter(my-section) ". ";
+    }
+    h2::before {
+    counter-increment: my-sub-section;
+    content: counter(my-section) "." counter(my-sub-section) " ";
+    }
+    
