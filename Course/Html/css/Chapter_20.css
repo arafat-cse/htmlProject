@@ -1,83 +1,245 @@
-.bg-20{
+/* .bg-20{
     background-color: antiquewhite;
+} */
+
+.div1 {
+    width: 150px;
+    height: 50px;
+     color: white;
+    background: gray;
+    transition: 2s;
+    border: 2px solid tomato;
+    margin-bottom: 50px;
+   
 }
-.container {
-    border: 1px solid black;
-    width: 300px;
-    
+.div1:hover {
+    width: 400px;
 }
-.float {
-    float: left;
-    border: 1px solid red;
-}
-    .no-float {
-    border: 1px solid blue;
-}
- .no-float {
-        clear: left;
-        border: 1px solid blue;
-}
- div {
-    border: 1px solid black;
-    }
-    .container1 {
-    position: relative;
-    width: 250px;
-    /* height: 250px; */
-    }
-    .child {
+
+
+.div2 {
+    margin-bottom: 50px;
     width: 100px;
     height: 100px;
-    background-color: white;
+     color: white;
+    background:green;
+    transition: width 2s, height 4s, transform 2s;
     }
-    .absolute {
-    position: absolute;
-    border: 1px solid red;
-    text-align: right;
-    }
-    .z-index-minus-two {
-    z-index: -2;
-    left: 100px;
-    top: 5px;
-    }
-    .z-index-minus-one {
-    z-index: -1;
-    left: 70px;
-    top: 35px;
-    }
-    .z-index-zero {
-    z-index: 0;
-    left: 40px;
-    top: 65px;
-    }
-    .z-index-one {
-    z-index: 1;
-    left: 10px;
-    top: 95px;
-    }
-    .z-index-two {
-    z-index: 2;
-    }
-.flex-container1 {
-    display: flex;
-    margin-top: 100px;
+.div2:hover {
     width: 300px;
-    height: 150px;
-    border: 1px solid black;
-    gap: 10px;
-    }
-    .flex-item {
-    border: 1px solid red;
-    }    
-.flex-container {
-    display: flex;
-    margin-top: 100px;
-    flex-direction: row-reverse;
+    height: 300px;
+    transform: skewX(50deg);
+}
+/* 0.1.2 Transition Delay */
+   
+.div3 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+     color: white;
+    background: rgb(208, 166, 166);
+    transition: width 2s, height 4s;
+    transition-delay: 1s;
+}
+.div3:hover {
     width: 300px;
-    height: 150px;
-    border: 1px solid black;
-    gap: 10px;
+    height: 300px;
+}
+/* 0.1.3 Transition Timing Function */
+.div4 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+     color: white;
+    background: red;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+}
+.div4:hover {
+    width: 300px;
+    height: 300px;
+}
+/* 0.1.4 Shorthand Transition Property */
+.div5 {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.div5 {
+        transition: width 2s linear 1s;
+}
+/* 0.2.1 Two-step Keyframes */
+@keyframes my-animation {
+    from {
+   background-color: red;
     }
-    .flex-item {
-    border: 1px solid red;
+    to {
+   background-color: yellow;
     }
+   }
+   
+.div6{
+    width: 800;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: green;
+    animation-name: my-animation;
+    animation-duration: 4s;
+    
+}
+/* 0.2.2 Multiple Keyframes */
+@keyframes my-animation {
+    0% {
+   background-color: red;
+    }
+    25% {
+   background-color: yellow;
+    }
+    50% {
+   background-color: blue;
+    }
+    100% {
+   background-color: green;
+    }
+   }
+   .div7 {
+    width: 800;
+   height: 100px;
+   margin-bottom: 50px;
+   background-color: cyan;
+   animation-name: my-animation;
+   animation-duration: 4s;
+   }
+   /* 0.2.3 Animation Delay */
+   @keyframes my-animation {
+    0% {
+   background-color: red;
+    }
+    25% {
+   background-color: yellow;
+    }
+    50% {
+   background-color: blue;
+    }
+    100% {
+   background-color: green;
+    }
+   }
+   .div8 {
+   width: 800;
+   height: 100px;
+   margin-bottom: 50px;
+   background-color: rgb(25, 13, 54);
+   animation-name: my-animation;
+   animation-duration: 4s;
+   animation-delay: 2s;
+   }
+   /* 0.2.4 Animation Iteration Count */
+   @keyframes my-animation {
+    0% {
+   background-color: red;
+    }
+    25% {
+   background-color: yellow;
+    }
+    50% {
+   background-color: blue;
+    }
+    100% {
+   background-color: green;
+    }
+   }
+   .div9 {
+    width: 800;
+   height: 100px;
+   margin-bottom: 50px;
+   background-color: rgb(84, 102, 102);
+   animation-name: my-animation;
+   animation-duration: 4s;
+   animation-iteration-count: 3;
+   }
+   /* 0.2.5 Animation Direction */
+   @keyframes my-animation {
+    from {
+   left: 0;
+    }
+    to {
+   left: 300px;
+    }
+   }
+   .div10 {
+   position: relative;
+   width: 100px;
+   height: 100px;
+   margin-bottom: 50px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius:50% ;
+   background-color: cyan;
+   animation-name: my-animation;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+   }
+
+   @keyframes my-animation {
+    from {
+   left: 0;
+    }
+    to {
+   left: 300px;
+    }
+   }
+   .div11 {
+   position: relative;
+   width: 100px;
+   height: 100px;
+   margin-bottom: 50px;
+   border-radius: 50%;
+   background-color: cyan;
+   animation-name: my-animation;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   }
+   /* 0.2.6 Animation Timing Function */
+
+   @keyframes my-animation {
+    from {
+   left: 0;
+    }
+    to {
+   left: 300px;
+    }
+   }
+   .div12 {
+   position: relative;
+   width: 100px;
+   height: 100px;
+   margin-bottom: 50px;
+   background-color: cyan;
+   animation-name: my-animation;
+   animation-duration: 4s;
+   animation-timing-function: ease-out;
+   }
+   /* 0.2.7 Shorthand Animation Property */
+   .div13 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: cyan;
+    animation-name: my-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    }
+    .div14 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: cyan;
+        animation: my-animation 4s linear infinite alternate;
+        }
+        
