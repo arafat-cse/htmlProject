@@ -52,7 +52,7 @@ body {
 	margin: 0 auto;
 	/* border: 2px solid tomato; */
 }
-.headTem {
+.headMain {
 	width: 100%; 
 }
 .navSection {
@@ -70,13 +70,13 @@ body {
   width: 95%;  
   
 }
-.logo-section{
+.logDiv{
 	height: 100%;
 	display: flex;
 	align-items: center;
 	
 }
-.logo-section a{
+.logDiv a{
 	text-decoration: none;
 }
 
